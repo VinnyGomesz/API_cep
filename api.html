@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint 04 - JSAssincrono JavaScript</title>
+    <link rel="stylesheet" href="api.css">
+    
+</head>
+<body>
+    <h1>Consultar CEP</h1>
+<div id=" app">
+    <div class="barra_busca">
+        <input type = "text" placeholder="Digite seu cep" id="cep">
+    <button id="consulta" onclick="searchUser() ">Buscar</button>
+    </div>
+    <div class= "endereco">
+        <input type="text" id="rua" disabled>
+        <input type="text" id="bairro" disabled>
+        <input type="text" id="cidade" disabled>
+        <input type="text" id="estado" disabled>
+
+    </div>
+</div>    
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="api.js"></script>
+</html>
